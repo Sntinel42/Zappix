@@ -11,3 +11,5 @@ MESSAGE=$(echo -n "$MESSAGE")
 
 # Enviando Mensagem
 curl -v  -X POST -d "number=$PHONE&message=$MESSAGE" "$URL"
+
+# local do script: /usr/lib/zabbix/externalscripts/zappix.sh
